@@ -2,15 +2,15 @@
     margin: 0;
 }
 #mainCont{
-    height: auto;
-    width: auto;
-    border: 1px solid red;
+    /*height: auto;*/
+    /*width: auto;*/
+    /*border: 1px solid red;*/
 }
 .cardDivs{
-    height: 200px;
-    width: 150px;
-    background-image: url("../Images/texture.jpg");
+    height: 33%;
+    width: 25%;
+    content: url("../Images/texture.jpg");
     padding: 0;
     margin: 30px;
-    display: inline;
+    /*display: inline;*/
 }

@@ -10,18 +10,22 @@ function init(){
 }
 function createMain(){
     var mainCont = document.createElement("div");
-    mainCont.className += "col-xs-12 col-sm-12 col-md-12 col-lg-12 container";
+    mainCont.className = "container";
     mainCont.id = "mainCont";
     document.body.appendChild(mainCont);
 }
 function createCards() {
     var mainCont = document.getElementById("mainCont");
-    for (var i = 0; i < COLUMNS; i++){
-        for (var j =0; j < rows; j++){
+    for (var i = 0; i < rows; i++){
+        var rowDivs = document.createElement("div");
+        rowDivs.classList = "rows";
+        mainCont.appendChild(rowDivs);
+        for (var j =0; j < COLUMNS; j++){
             var cardDivs = document.createElement("div");
-            cardDivs.className += "cardDivs col-xs-4 col-sm-4 col-md-4 col-lg-4";
+            cardDivs.className += "cardDivs col-xs-4";
+            
             cardDivs.id = "column"+i+"-row"+j;
-            mainCont.appendChild(cardDivs);
+            rowDivs.appendChild(cardDivs);
         }
     }
 
