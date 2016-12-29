@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="039f5b8e-99e3-4a11-b1d3-1bf77f4aba84" name="Default" comment="Committing files needed for the game to run.">
+    <list default="true" id="039f5b8e-99e3-4a11-b1d3-1bf77f4aba84" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/index.css" afterPath="$PROJECT_DIR$/CSS/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/index.js" afterPath="$PROJECT_DIR$/JS/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="MemoryGame.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+            <state relative-caret-position="544">
+              <caret line="75" column="2" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
               <folding>
                 <element signature="e#0#46#0" expanded="false" />
               </folding>
@@ -43,8 +42,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="537">
+              <caret line="67" column="3" selection-start-line="23" selection-start-column="2" selection-end-line="67" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -86,9 +85,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -550,7 +550,7 @@
       <updated>1482912215619</updated>
       <workItem from="1482912217031" duration="6895000" />
       <workItem from="1482920039043" duration="42000" />
-      <workItem from="1482920484105" duration="19626000" />
+      <workItem from="1482920484105" duration="32395000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit">
       <created>1482912456363</created>
@@ -566,14 +566,21 @@
       <option name="project" value="LOCAL" />
       <updated>1482919875000</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Completed generating the layout, notes are included for what to do next.">
+      <created>1483010172043</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1483010172043</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26563000" />
+    <option name="totallyTimeSpent" value="39332000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -642,7 +649,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test commit" />
     <MESSAGE value="Committing files needed for the game to run." />
-    <option name="LAST_COMMIT_MESSAGE" value="Committing files needed for the game to run." />
+    <MESSAGE value="Completed generating the layout, notes are included for what to do next." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed generating the layout, notes are included for what to do next." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -723,6 +731,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="67" column="3" selection-start-line="23" selection-start-column="2" selection-end-line="67" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -731,18 +747,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+        <state relative-caret-position="544">
+          <caret line="75" column="2" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
           <folding>
             <element signature="e#0#46#0" expanded="false" />
           </folding>

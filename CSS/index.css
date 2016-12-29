@@ -22,11 +22,15 @@
     cursor: pointer;
 }
 /*.card {*/
-    /*position: relative;*/
-    /*float: left;*/
-    /*padding-bottom: 25%;*/
-    /*width: 25%;*/
-    /*text-align: center;*/
+    /*!*position: relative;*!*/
+    /*!*float: left;*!*/
+    /*!*padding-bottom: 25%;*!*/
+    /*!*width: 25%;*!*/
+    /*!*text-align: center;*!*/
+    /*height: 33%;*/
+    /*width: 31%;*/
+    /*padding: 0;*/
+    /*margin: 1%;*/
 /*}*/
 
 /*.card__front, .card__back {*/
@@ -45,11 +49,11 @@
 /*}*/
 
 /*.card__front {*/
-    /*background-color: #ff5078;*/
+    /*content: url("../Images/texture.jpg");*/
 /*}*/
 
 /*.card__back {*/
-    /*background-color: #1e1e1e;*/
+    /*!*background-color: #1e1e1e;*!*/
     /*-webkit-transform: rotateY(-180deg);*/
     /*transform: rotateY(-180deg);*/
 /*}*/
